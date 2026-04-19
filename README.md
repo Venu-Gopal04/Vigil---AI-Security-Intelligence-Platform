@@ -32,7 +32,7 @@ VIGIL is an **AI-first overnight security intelligence platform** that automatic
 
 Live Demo
 
-> 🔗 [vigil-ai.vercel.app](https://vigil-ai.vercel.app)
+> 🔗 vigil-ai-security-intelligence-plat.vercel.app
 
 
 
