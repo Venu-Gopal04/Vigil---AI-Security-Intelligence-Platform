@@ -53,7 +53,7 @@ export default function Home() {
         flex:1,display:"flex",alignItems:"center",justifyContent:"center",
         padding:"0px 48px",position:"relative",zIndex:1,minHeight:"calc(100vh - 120px)"
       }}>
-        <div style={{width:"100%",maxWidth:"1100px",display:"grid",gridTemplateColumns:"1fr 1fr",gap:"80px",alignItems:"center"}}>
+        <div style={{width:"100%",maxWidth:"1100px",display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))",gap:"40px",alignItems:"center"}}>
 
           {/* LEFT COLUMN */}
           <div>
@@ -71,9 +71,9 @@ export default function Home() {
 
             {/* Big title */}
             <div style={{marginBottom:"24px"}}>
-              <div style={{fontSize:"96px",fontWeight:900,color:"white",lineHeight:1,letterSpacing:"-3px"}}>6:10</div>
+              <div style={{fontSize:"clamp(48px, 10vw, 96px)",fontWeight:900,color:"white",lineHeight:1,letterSpacing:"-3px"}}>6:10</div>
               <div style={{
-                fontSize:"96px",fontWeight:900,lineHeight:1,letterSpacing:"-3px",
+                fontSize:"clamp(48px, 10vw, 96px)",fontWeight:900,lineHeight:1,letterSpacing:"-3px",
                 background:"linear-gradient(135deg,#3b82f6 0%,#06b6d4 50%,#8b5cf6 100%)",
                 WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"
               }}>Assistant</div>
